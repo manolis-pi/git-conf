@@ -1,2 +1,2 @@
 # git-conf
-Git aliases
+Git configurations
