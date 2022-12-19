@@ -2,3 +2,4 @@ git config --global alias.alias "! git config --get-regexp ^alias\. | sed -e s/^
 git config --global alias.mygraph "log --graph --oneline --decorate"
 git config --global alias.last 'log -1 HEAD'
 git config --global alias.unstage 'reset HEAD --'
+git config --global alias.mylog "log --pretty=format:'%C(yellow)%h%x20%C(blue)%<(20)%an%x20%C(red)%ad%x20%Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'"
